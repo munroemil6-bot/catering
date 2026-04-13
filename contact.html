@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Royal Events Blog</title>
-  <link rel="stylesheet" href="blog.css">
+  <title>Contact Royal Events</title>
+  <link rel="stylesheet" href="contact.css">
   <link rel="stylesheet" href="footer.css">
+
 </head>
 <body>
 
@@ -24,56 +25,39 @@
 </header>
 
 <!-- HERO -->
-<section class="blog-hero">
-  <h1>Our Blog</h1>
-  <p>Insights, tips, and inspiration for your perfect event</p>
+<section class="contact-hero">
+  <h1>Contact Us</h1>
+  <p>We would love to plan your next event</p>
 </section>
 
-<!-- BLOG CONTENT -->
-<section class="blog-container">
+<!-- CONTACT SECTION -->
+<section class="contact-container">
 
-  <!-- MAIN POSTS -->
-  <div class="posts">
-
-    <div class="post">
-      <img src="https://via.placeholder.com/600x300">
-      <h2>How to Plan a Perfect Wedding Event</h2>
-      <p>Discover key tips to make your wedding day unforgettable with proper planning and expert coordination.</p>
-      <button>Read More</button>
-    </div>
-
-    <div class="post">
-      <img src="https://via.placeholder.com/600x300">
-      <h2>Top Catering Trends in 2026</h2>
-      <p>Explore the latest catering styles, menu ideas, and event food innovations.</p>
-      <button>Read More</button>
-    </div>
-
-    <div class="post">
-      <img src="https://via.placeholder.com/600x300">
-      <h2>Choosing the Right Event Décor</h2>
-      <p>Learn how décor transforms your event atmosphere and leaves a lasting impression.</p>
-      <button>Read More</button>
-    </div>
-
+  <!-- FORM -->
+  <div class="contact-form">
+    <h2>Send Us a Message</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
   </div>
 
-  <!-- SIDEBAR -->
-  <aside class="sidebar">
-    <h3>Recent Posts</h3>
-    <ul>
-      <li>Wedding Planning Guide</li>
-      <li>Corporate Event Tips</li>
-      <li>Best Catering Ideas</li>
-    </ul>
+  <!-- INFO + LOGO -->
+  <div class="contact-info">
+    <h2>Get In Touch</h2>
+    <p><strong>Location:</strong> Bungoma, Kenya</p>
+    <p><strong>Phone:</strong> +254 703 966 177</p>
+    <p><strong>Email:</strong> info@royalevents.co.ke</p>
 
-    <h3>Categories</h3>
-    <ul>
-      <li>Events</li>
-      <li>Catering</li>
-      <li>Decoration</li>
-    </ul>
-  </aside>
+    <!-- LOGO AREA (instead of map) -->
+    <div class="logo-box">
+      <img src="https://via.placeholder.com/250x150" alt="Royal Events Logo">
+      <p>Royal Events</p>
+    </div>
+  </div>
 
 </section>
 
@@ -139,6 +123,6 @@
     <p>© 2026 Royal Events. All Rights Reserved.</p>
   </div>
 </footer>
-
+<script src="contact.js"></script>
 </body>
 </html>
