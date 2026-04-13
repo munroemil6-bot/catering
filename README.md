@@ -120,3 +120,69 @@ The platform is designed with simplicity, accessibility, and professionalism in 
   - Mobile devices  
 
 ---
+
+## Usage Guide
+
+- Use the navigation bar to explore different pages of the website  
+- View services and offerings on the **Services** page  
+- Read blog posts for insights and updates  
+- Use the contact form to send inquiries  
+- Click the **CTA button** to quickly access the contact page  
+
+---
+
+## Future Enhancements
+
+- Backend integration for real email functionality  
+- Database integration for blog posts  
+- Admin dashboard for content management  
+- Online booking and reservation system  
+- Payment gateway integration  
+- Authentication system for admin users  
+- SEO optimization for better search visibility  
+
+---
+
+## Deployment
+
+This project can be deployed using:
+
+- GitHub Pages  
+- Netlify  
+- Vercel  
+
+---
+
+## Contributing
+
+Contributions are welcome and encouraged!
+
+### Steps:
+1. Fork the repository  
+2. Create a feature branch  
+3. Commit your changes  
+4. Push to your branch  
+5. Open a pull request  
+
+---
+
+## Contact Information
+
+- **Business Name:** Royal Events  
+- **Location:** Nairobi, Kenya  
+- **Email:** info@royalevents.co.ke  
+- **Phone:** +254 700 000 000  
+
+---
+
+## License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## Acknowledgements
+
+This project was inspired by modern catering and corporate service websites, incorporating best practices in web design and user experience.  
+
+Special thanks to the developer community for continuous learning resources and inspiration.
