@@ -169,9 +169,9 @@ Contributions are welcome and encouraged!
 ## Contact Information
 
 - **Business Name:** Royal Events  
-- **Location:** Nairobi, Kenya  
+- **Location:** Bungoma, Kenya  
 - **Email:** info@royalevents.co.ke  
-- **Phone:** +254 700 000 000  
+- **Phone:** +254 703 966 177 
 
 ---
 
