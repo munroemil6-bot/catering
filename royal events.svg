@@ -1,0 +1,30 @@
+<svg width="260" height="260" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#111111"></circle>
+
+  <!-- Outer Ring -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#444444" stroke-width="2"></circle>
+
+  <!-- Crown Base -->
+  <rect x="55" y="85" width="90" height="18" fill="#FF8C00"></rect>
+
+  <!-- Crown Points -->
+  <polygon points="55,85 70,55 85,85" fill="#FF8C00"></polygon>
+  <polygon points="85,85 100,50 115,85" fill="#FFA500"></polygon>
+  <polygon points="115,85 130,55 145,85" fill="#FF8C00"></polygon>
+
+  <!-- Inner Accent Line -->
+  <line x1="55" y1="103" x2="145" y2="103" stroke="#888888" stroke-width="2"></line>
+
+  <!-- Text: ROYAL -->
+  <text x="100" y="135" text-anchor="middle" font-size="18" fill="#FFFFFF" font-family="Arial" font-weight="bold">
+    ROYAL
+  </text>
+
+  <!-- Text: EVENTS -->
+  <text x="100" y="155" text-anchor="middle" font-size="14" fill="#AAAAAA" font-family="Arial" letter-spacing="2">
+    EVENTS
+  </text>
+
+</svg>
