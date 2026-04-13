@@ -9,6 +9,7 @@
 .blog-hero {
   text-align: center;
   padding: 60px;
+  color: white;
   background: #f4f4f4;
   background: url(https://media.istockphoto.com/id/529133291/photo/coffee-break-at-business-meeting.jpg?s=1024x1024&w=is&k=20&c=VTYukDyfW20zEteiMiJlz5UlSbMJYzb5h1fQZxNz-kY=) center/cover no-repeat; 
 }
