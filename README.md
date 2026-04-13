@@ -185,4 +185,4 @@ This project is open-source and available under the MIT License.
 
 This project was inspired by modern catering and corporate service websites, incorporating best practices in web design and user experience.  
 
-Special thanks to the developer community for continuous learning resources and inspiration.
+Special thanks to the founder and the starter of the organisation Carolyne G lukandu
