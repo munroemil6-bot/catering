@@ -15,7 +15,7 @@ body {
   justify-content: space-between;
   padding: 15px 60px;
   background: #111;
-  color: white;
+  color: orange;
 }
 
 .nav-links {
@@ -28,7 +28,7 @@ body {
 }
 
 .nav-links a {
-  color: white;
+  color: orange;
   text-decoration: none;
 }
 

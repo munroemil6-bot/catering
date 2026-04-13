@@ -15,7 +15,7 @@ body {
   justify-content: space-between;
   padding: 15px 50px;
   background: #111;
-  color: #fff;
+  color: orange;
   position: sticky;
   top: 0;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 .nav-links a {
-  color: white;
+  color: orange;
   text-decoration: none;
 }
 

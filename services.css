@@ -1,4 +1,4 @@
-/* ===== SERVICES SECTION FULL WIDTH ===== */
+/* SERVICES STYLING */
 .services {
   width: 100%;
   padding: 80px 0;
@@ -41,7 +41,12 @@
   gap: 25px;
 }
 
-/* CARDS (UNCHANGED STYLE) */
+/* CARDS  */
+.service-link:hover .service-box {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
 .service-box {
   background: white;
   padding: 25px;
@@ -51,12 +56,24 @@
   transition: 0.3s;
 }
 
+.service-link {
+  text-decoration: none;
+  display: block;
+}
+
+.service-link .service-box h3 {
+  color: orange;   
+}
+
+.service-link .service-box p {
+  color: black;    
+}
+
 .service-box:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
-/* RESPONSIVE */
 @media (max-width: 900px) {
   .services-container {
     grid-template-columns: repeat(2, 1fr);
