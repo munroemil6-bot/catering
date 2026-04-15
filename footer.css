@@ -20,6 +20,7 @@
   font-size: 28px;
   margin-bottom: 10px;
   color: orange;
+  font-family: Helvetica;
 }
 
 .cta-info {
@@ -101,4 +102,9 @@
   .footer-container {
     grid-template-columns: 1fr;
   }
+}
+
+.hero h1,
+.hero h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }

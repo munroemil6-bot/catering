@@ -7,9 +7,10 @@
 
 body {
   line-height: 1.6;
+   font-family: sans-serif;
 }
 
-/* NAVBAR */
+/**NAVBAR**/
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -36,7 +37,7 @@ body {
   border-bottom: 2px solid orange;
 }
 
-/* HERO */
+/**HERO**/
 .blog-hero {
   text-align: center;
   padding: 60px;
@@ -47,16 +48,17 @@ body {
 
 .blog-hero h1 {
   font-size: 36px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* LAYOUT */
+/**LAYOUT**/
 .blog-container {
   display: flex;
   padding: 50px;
   gap: 30px;
 }
 
-/* POSTS */
+/**POSTS**/
 .posts {
   flex: 3;
 }
@@ -73,6 +75,7 @@ body {
 
 .post h2 {
   margin: 15px 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .post button {
@@ -83,7 +86,7 @@ body {
   cursor: pointer;
 }
 
-/* SIDEBAR */
+/**SIDEBAR**/
 .sidebar {
   flex: 1;
 }
@@ -101,7 +104,7 @@ body {
   margin: 8px 0;
 }
 
-/* FOOTER */
+/**FOOTER**/
 footer {
   text-align: center;
   padding: 20px;
@@ -109,9 +112,14 @@ footer {
   color: white;
 }
 
-/* RESPONSIVE */
+/**RESPONSIVE**/
 @media (max-width: 900px) {
   .blog-container {
     flex-direction: column;
   }
 }
+
+
+
+
+

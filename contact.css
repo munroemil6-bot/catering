@@ -7,6 +7,7 @@
 
 body {
   line-height: 1.6;
+  font-family: sans-serif;
 }
 
 /* NAVBAR */
@@ -46,6 +47,7 @@ body {
 
 .contact-hero h1 {
   font-size: 36px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /* LAYOUT */

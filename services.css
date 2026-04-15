@@ -16,6 +16,7 @@
 
 .blog-hero h1 {
   font-size: 36px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 
@@ -90,3 +91,7 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+
+.
