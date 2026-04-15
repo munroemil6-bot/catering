@@ -44,15 +44,9 @@ body {
   align-items: center;
   color: white;
   text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;  
 }
 
-.hero button {
-  margin-top: 15px;
-  padding: 10px 20px;
-  border: none;
-  background: orange;
-  cursor: pointer;
-}
 
 /* SERVICES */
 .services {
