@@ -173,3 +173,11 @@ footer {
   padding: 10px;
   border-bottom: 1px solid #eee;
 }
+
+#topMessage {
+  display: none;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+}

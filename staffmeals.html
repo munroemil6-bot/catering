@@ -23,31 +23,33 @@
   </nav>
 </header>
 
-<!--FORM-->
-<section class="service-page">
-  <h2>STAFF MEALS</h2>
-  <p class="description">Nutritious and well-balanced meals designed to improve productivity and satisfaction.</p>
+<!--FORM SECTION-->
+<div id="topMessage"></div>
 
-  <form id="bookingForm">
-    <input type="text" id="name" placeholder="Full Name" required>
-    <input type="date" id="date" required>
-    <select id="guests" required>
+<section class="service-page">
+  <h2>Staff Meals</h2>
+
+  <form id="bookingForm" data-service="Staff Meals">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="date" name="date" required>
+
+    <select name="guests" required>
       <option value="">Guests</option>
       <option>50</option>
       <option>100</option>
-      <option>150</option>
       <option>200</option>
     </select>
+
     <button type="submit">Book Now</button>
+    <button id="refreshBtn">Refresh Page</button>
   </form>
 
-  <div class="bookings">
-    <h3>Recent Bookings</h3>
-    <ul id="bookingList"></ul>
-  </div>
 </section>
 
-<script type="module" src="booking.js"></script>
+<script type="module" async src="booking.js"></script>
+<script async src="booking.test.js"></script>
+
 
     <!-- CTA SECTION -->
 <section class="footer-cta">

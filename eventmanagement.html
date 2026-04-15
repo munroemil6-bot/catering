@@ -23,31 +23,33 @@
   </nav>
 </header>
 
-<!--FORM-->
-<section class="service-page">
-  <h2>EVENT MANAGEMENT</h2>
-  <p class="description">Full planning and coordination ensuring every detail is perfectly executed.</p>
+<!--FORM SECTION-->
+<div id="topMessage"></div>
 
-  <form id="bookingForm">
-    <input type="text" id="name" placeholder="Full Name" required>
-    <input type="date" id="date" required>
-    <select id="guests" required>
+<section class="service-page">
+  <h2>Event Management</h2>
+
+  <form id="bookingForm" data-service="Event Management">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="date" name="date" required>
+
+    <select name="guests" required>
       <option value="">Guests</option>
       <option>50</option>
       <option>100</option>
-      <option>150</option>
       <option>200</option>
     </select>
+
     <button type="submit">Book Now</button>
+    <button id="refreshBtn">Refresh Page</button>
   </form>
 
-  <div class="bookings">
-    <h3>Recent Bookings</h3>
-    <ul id="bookingList"></ul>
-  </div>
 </section>
 
-<script type="module" src="booking.js"></script>
+<script type="module" async src="booking.js"></script>
+<script async src="booking.test.js"></script>
+
 
     <!-- CTA SECTION -->
 <section class="footer-cta">

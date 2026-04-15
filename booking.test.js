@@ -18,7 +18,6 @@ function test(condition, message) {
   }
 }
 
-// TEST CASES
 test(validateBooking({ name: "John", date: "2026" }), "Valid booking failed");
 test(!validateBooking({ name: "", date: "2026" }), "Empty name should fail");
 test(!validateBooking({ name: "Jane", date: "" }), "Empty date should fail");
