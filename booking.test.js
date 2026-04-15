@@ -1,37 +1,30 @@
-// UNIT TEST FOR ROYAL EVENTS BOOKING SYSTEM
+(function () {
 
-// FUNCTION TO TEST
 function validateBooking(booking) {
   return (
-    booking.name &&
-    booking.name.trim() !== "" &&
-    booking.date &&
-    booking.date.trim() !== ""
+    typeof booking.name === "string" &&
+    booking.name.trim().length > 0 &&
+    typeof booking.date === "string" &&
+    booking.date.trim().length > 0
   );
 }
 
-// 🧪 TEST 1: VALID DATA
-const test1 = validateBooking({
-  name: "John Doe",
-  date: "2026-04-20"
-});
+let allPassed = true;
 
-console.assert(test1 === true, "❌ Test 1 Failed (Valid booking should pass)");
+function test(condition, message) {
+  if (!condition) {
+    console.error("❌", message);
+    allPassed = false;
+  }
+}
 
-// 🧪 TEST 2: EMPTY NAME
-const test2 = validateBooking({
-  name: "",
-  date: "2026-04-20"
-});
+// TEST CASES
+test(validateBooking({ name: "John", date: "2026" }), "Valid booking failed");
+test(!validateBooking({ name: "", date: "2026" }), "Empty name should fail");
+test(!validateBooking({ name: "Jane", date: "" }), "Empty date should fail");
 
-console.assert(test2 === false, "❌ Test 2 Failed (Empty name should fail)");
+if (allPassed) {
+  console.log("✅ All Unit Tests Passed");
+}
 
-// 🧪 TEST 3: EMPTY DATE
-const test3 = validateBooking({
-  name: "Jane",
-  date: ""
-});
-
-console.assert(test3 === false, "❌ Test 3 Failed (Empty date should fail)");
-
-console.log("✅ All Booking Unit Tests Passed");
+})();
