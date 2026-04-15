@@ -13,7 +13,7 @@ let allPassed = true;
 
 function test(condition, message) {
   if (!condition) {
-    console.error("❌", message);
+    console.error("failed", message);
     allPassed = false;
   }
 }
@@ -23,7 +23,7 @@ test(!validateBooking({ name: "", date: "2026" }), "Empty name should fail");
 test(!validateBooking({ name: "Jane", date: "" }), "Empty date should fail");
 
 if (allPassed) {
-  console.log("✅ All Unit Tests Passed");
+  console.log("All Unit Tests Passed");
 }
 
 })();
